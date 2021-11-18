@@ -8,8 +8,8 @@
  @ Description
  --------------
 
-    ```This code explore a fail in function popen of os module```
-    ```For exit use CRTL+Z```
+```This code explore a fail in function popen of os module```
+```For exit use CRTL+Z```
 
  @ Instaltion
  -------------
