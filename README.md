@@ -3,7 +3,7 @@
  @ Author
  ---------
 
-    Dreifus-404 : <a heref="https://github.com/Dreifus-404">> Github </a>
+    Dreifus-404
 
  @ Description
  --------------
