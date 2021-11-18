@@ -14,19 +14,19 @@
  @ Instaltion
  -------------
 
--Git
+-Git :
 ```apt-get install git -y```
 
--Tool
+-Tool :
 ```git clone https://github.com/Dreifus-404/Andro-Hack```
 
--Dir. tool
+-Dir. tool :
 ```cd Andro-Hack```
 
--permission from intall.sh
+-permission from intall.sh :
 ```chmod +x install.sh```
 
--Execute tool
-``./install.sh```
+-Execute tool :
+```./install.sh```
 
 # End
