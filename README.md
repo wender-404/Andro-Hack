@@ -8,8 +8,8 @@
  @ Description
  --------------
 
-    This code explore a fail in function popen of os module```
-    For exit use CRTL+Z
+    This code exploits a flaw in the popen function of module os.
+    To close the tool keep pressing CTRL+Z
 
  @ Instaltion
  -------------
