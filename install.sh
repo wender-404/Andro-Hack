@@ -18,7 +18,7 @@ then
 
     sleep 1.5
 
-    ./$actual_dir/main.sh
+    .$actual_dir/main.sh
 
 else
     echo -e "\e[32m [-] Python can't be installed, Installing it\e[0m"
@@ -30,7 +30,7 @@ else
 
         sleep 1.5
 
-        ./$actual_dir/main.sh
+        .$actual_dir/main.sh
 
     else
         echo -e " \e[1;31m[-] error check your connection and try again!!\a\e[0m"
