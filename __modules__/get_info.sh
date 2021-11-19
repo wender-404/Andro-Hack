@@ -13,4 +13,4 @@ case $platform in
 esac
 
 whiptail --ascii-lines --title "©2021 ®AndroHack" --msgbox "\nPress enter for Hack $platform\n" 7 50
-whiptail --no-ok --pause "\nHacking User $platform with host : $ip" 12 70 10
+whiptail --no-ok --pause "\n hacking $platform user with $ip host $ip\n" 13 70 10
