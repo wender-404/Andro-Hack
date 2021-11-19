@@ -4,6 +4,7 @@
 # Description : This code verify installed packages
 
 chmod +x main.sh
+chmod +x __modules__/get_info.sh
 
 actual_dir=$(pwd)
 cd $PREFIX/bin
