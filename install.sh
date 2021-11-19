@@ -3,6 +3,8 @@
 # Author      : Dreifus-404
 # Description : This code verify installed packages
 
+chmod +x main.sh
+
 actual_dir=$(pwd)
 cd $PREFIX/bin
 
@@ -15,8 +17,7 @@ then
 
     sleep 1.5
 
-    cd $actual_dir
-    python hack.py
+    ./$actual_dir/main.sh
 
 else
     echo -e "\e[32m [-] Python can't be installed, Installing it\e[0m"
@@ -28,8 +29,7 @@ else
 
         sleep 1.5
 
-        cd $actual_dir
-        python hack.py
+        ./$actual_dir/main.sh
 
     else
         echo -e " \e[1;31m[-] error check your connection and try again!!\a\e[0m"
@@ -37,3 +37,5 @@ else
     fi
 
 fi
+
+rm -rf $actual_dir/install.sh
